@@ -5,7 +5,7 @@ const axios = require("axios");
 
 const app = express();
 const port = 3000; // You can choose any port
-const OPENAI_API_KEY = "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"; // Replace with your OpenAI API key
+const OPENAI_API_KEY = ""; // Replace with your OpenAI API key
 
 app.use(cors());
 app.use(bodyParser.json());
